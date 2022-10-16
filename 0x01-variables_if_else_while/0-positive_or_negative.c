@@ -21,5 +21,7 @@ int main(void)
 		printf("%u is zero\n", n);
 	else
 		printf("%u is negative\n", n);
+
+	n = 0;
 	return (0);
 }
