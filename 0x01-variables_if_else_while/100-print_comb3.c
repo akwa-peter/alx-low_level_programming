@@ -7,25 +7,23 @@
 int main(void)
 {
 	int num = 0;
+	int num2 = 0;
 
-	while (num < 100)
+	while (num < 10)
 	{
-		if (num % 10 != 0)
+		while (num2 < 10)
 		{
-			if (num < 10)
-				putchar('0');
-
 			putchar((num % 10) + '0');
-
-			if (num > 10)
-				putchar((num % 10) + '0');
-
-			if (num < 99)
-			{
-				putchar(',');
-				putchar(' ');
-			}
+			putchar((num % 10) + '0');
+			num2++;
 		}
+
+		if (num != 9 && num2 != 9)
+		{
+			putchar(',');
+			putchar(' ');
+		}
+
 		num++;
 	}
 
