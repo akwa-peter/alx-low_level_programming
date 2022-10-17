@@ -4,9 +4,8 @@
 #include <stdio.h>
 
 /**
- * betty style doc for function main goes there
  * main - is the main entry of this ptogram
- * 0 - is the return value of this program
+ * Return: always 0 success
  */
 int main(void)
 {
