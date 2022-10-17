@@ -14,6 +14,7 @@ int main(void)
 		putchar(ch);
 		ch++;
 	}
+
 	while (CH <= 'Z')
 	{
 		putchar(CH);
@@ -21,5 +22,5 @@ int main(void)
 	}
 
 	printf("\n");
-
+	return (0);
 }
