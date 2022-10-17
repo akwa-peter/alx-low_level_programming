@@ -16,10 +16,10 @@ int main(void)
 			putchar((num % 10) + '0');
 			putchar((num2 % 10) + '0');
 
-			if (num != 9 && num2 != 9)
+			if (num != 9 || num2 != 9)
 			{
-				putchar((num % 10) + '0');
-				putchar((num2 % 10) + '0');
+				putchar(',');
+				putchar(' ');
 			}
 			num2++;
 		}
