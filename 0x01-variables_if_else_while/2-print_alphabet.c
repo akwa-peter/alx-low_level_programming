@@ -12,6 +12,7 @@ int main(void)
 	{
 		putchar(ch);
 		printf("\n");
+		ch++;
 	}
 
 	return (0);
