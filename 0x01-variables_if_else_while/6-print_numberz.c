@@ -10,10 +10,10 @@ int main(void)
 
 	while (num < 10)
 	{
-		putchar((num + '0'));
+		putchar((num % 10) + '0');
 		num++;
 	}
-	printf("\n");
+	putchar('\n');
 
 	return (0);
 }
