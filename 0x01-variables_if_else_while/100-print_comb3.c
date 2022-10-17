@@ -14,17 +14,15 @@ int main(void)
 
 		while (num2 < 10)
 		{
-			if (num2 != 0)
-			{
-				putchar((num % 10) + '0');
-				putchar((num2 % 10) + '0');
+			putchar((num % 10) + '0');
+			putchar((num2 % 10) + '0');
 
-				if (num == 8 && num2 == 9)
-					continue;
+			if (num == 8 && num2 == 9)
+				continue;
 
-				putchar(',');
-				putchar(' ');
-			}
+			putchar(',');
+			putchar(' ');
+			
 			num2++;
 		}
 
