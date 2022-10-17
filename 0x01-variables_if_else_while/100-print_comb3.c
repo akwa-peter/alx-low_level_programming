@@ -7,10 +7,10 @@
 int main(void)
 {
 	int num = 0;
-	int num2 = 0;
 
 	while (num < 10)
 	{
+		int num2 = 0;
 		while (num2 < 10)
 		{
 			putchar((num % 10) + '0');
