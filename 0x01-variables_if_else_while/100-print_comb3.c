@@ -22,7 +22,7 @@ int main(void)
 
 			putchar(',');
 			putchar(' ');
-			
+
 			num2++;
 		}
 
@@ -30,6 +30,7 @@ int main(void)
 	}
 
 	putchar('\n');
+
 	return (0);
 }
 
