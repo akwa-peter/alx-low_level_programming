@@ -10,7 +10,7 @@ int main(void)
 
 	while (num < 10)
 	{
-		int num2 = 0;
+		int num2 = num + 1;
 
 		while (num2 < 10)
 		{
