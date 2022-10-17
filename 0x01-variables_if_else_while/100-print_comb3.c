@@ -10,15 +10,21 @@ int main(void)
 
 	while (num < 100)
 	{
-		if (num < 10)
-			putchar('0' + (num % 10));
-		else
+		if (num % 10 != 0)
+		{
+			if (num < 10)
+				putchar('0');
+
 			putchar((num % 10) + '0');
 
-		if (num < 99)
-		{
-			putchar(',');
-			putchar(' ');
+			if (num > 10)
+				putchar((num % 10) + '0');
+
+			if (num < 99)
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
 		num++;
 	}
