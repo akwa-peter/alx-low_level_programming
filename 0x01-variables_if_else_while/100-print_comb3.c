@@ -11,6 +11,7 @@ int main(void)
 	while (num < 10)
 	{
 		int num2 = 0;
+
 		while (num2 < 10)
 		{
 			if (num2 != 0)
