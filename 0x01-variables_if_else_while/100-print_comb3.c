@@ -6,14 +6,14 @@
  */
 int main(void)
 {
-	int num = 1;
+	int num = 0;
 
 	while (num < 10)
 	{
 		int num2 = 0;
 		while (num2 < 10)
 		{
-			if (((num + num2) % 10) != 0)
+			if (num2 != 0)
 			{
 				putchar((num % 10) + '0');
 				putchar((num2 % 10) + '0');
