@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <main.h>
+#include "main.h"
 
 /**
  * main - main entry point of program to print _putchar
@@ -7,6 +7,13 @@
  */
 int main(void)
 {
-	printf("_putchar\n");
+	char *ch = "_putchar";
+
+	while (*ch)
+	{
+		_putchar(*ch);
+		ch++;
+	}
+	_putchar('\n');
 	return (0);
 }
