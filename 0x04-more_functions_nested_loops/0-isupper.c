@@ -8,9 +8,11 @@
 
 int _isupper(int c)
 {
-	for (int i = 'A'; i < 'Z'; i++)
+	int i = 'A';
+
+	for (i = 'A'; i <= 'Z'; i++)
 	{
-		if (i == c)
+		if (c == i)
 			return (1);
 		else
 			return (0);
