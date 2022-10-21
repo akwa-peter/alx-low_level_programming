@@ -6,7 +6,7 @@
  * @c: character
  */
 
-int _isupper(int c)
+int _isupper(char c)
 {
 	if (isupper(c))
 		return (1);
