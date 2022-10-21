@@ -6,10 +6,13 @@
  * @c: character
  */
 
-int _isupper(char c)
+int _isupper(int c)
 {
-	if (isupper(c))
-		return (1);
-	else
-		return (0);
+	for (int i = 'a'; i < 'z'; i++)
+	{
+		if (i == c)
+			return (1);
+		else
+			return (0);
+	}
 }
