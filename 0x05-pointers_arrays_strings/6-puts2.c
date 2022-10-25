@@ -1,3 +1,5 @@
+#include <string.h>
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -7,7 +9,7 @@
 void puts2(char *str)
 {
 	_putchar(str[0]);
-	putchar('\n');
+	_putchar('\n');
 
 	int len = strlen(str);
 	int i;
