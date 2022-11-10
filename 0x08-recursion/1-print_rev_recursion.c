@@ -1,3 +1,4 @@
+#include <string.h>
 #include "main.h"
 
 /**
@@ -11,7 +12,7 @@ void _print_rev_recursion(char *s)
 	{
 		_putchar(s[strlen(s) - 1]);
 		s[strlen(s) - 1] = '\0';
-		_print_rev_recursion(*s);
+		_print_rev_recursion(s);
 	}
 	else
 	{
